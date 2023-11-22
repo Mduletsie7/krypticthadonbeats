@@ -1,0 +1,27 @@
+/* Header.css */
+.header {
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  /* Add any additional styles to customize your header */
+  
