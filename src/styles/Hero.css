@@ -26,6 +26,9 @@
   .hero-text {
     text-align: center;
   }
+  .herotxt-kryptic {
+    color: #36454f;
+  }
   
   .hero-text h1 {
     font-size: 3rem;
@@ -48,7 +51,7 @@
   }
   
   .cta-button:hover {
-    background-color: #2980b9;
+    background-color: #36454f;
   }
   
   /* Add any additional styles to customize your hero section */

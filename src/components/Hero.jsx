@@ -1,7 +1,7 @@
 // HeroSection.js
 import React from "react";
 import "../styles/Hero.css";
-import image from "../assets/ForeverBlessed.jpg";
+import image from "../assets/kryptic.png";
 
 const Hero = () => {
   return (
@@ -9,12 +9,11 @@ const Hero = () => {
       <div className="hero-content">
         <img src={image} alt="Latest" className="hero-image" />
         <div className="hero-text">
-          <h1>Forever Blessed (feat. Neeks BTP)</h1>
+          <h1><span className="herotxt-kryptic">Kryptic</span> Tha Don</h1>
           <p>
-            Title: Forever Blessed. Performing Artist: Neeks BTP Produced by:
-            Kryptic Tha Don Year: 2022
+            Hip-Hop Producer, Mix Engineer
           </p>
-          <button className="cta-button">Stream</button>
+          <button className="cta-button">Contact</button>
         </div>
       </div>
     </section>

@@ -3,13 +3,14 @@ import React from 'react';
 import '../styles/Header.css';
 
 const Header = () => {
+  var website = "https://krypticthadonbeats.com/"
   return (
     <header className="header">
       <div className="logo">Kryptic Tha Don</div>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About</li>
+          <li onClick={()=> window.open(website, "_blank")}>Lease Beats</li>
+          <li>Discography</li>
           <li>Contact</li>
         </ul>
       </nav>
