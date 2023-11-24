@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="hero-text">
           <h1><span className="herotxt-kryptic">Kryptic</span> Tha Don</h1>
           <p>
-            Hip-Hop Producer, Mix Engineer
+            Music Producer from Cape Town, South africa with a passion for Hip-Hop.
           </p>
           <button className="cta-button">Contact</button>
         </div>
