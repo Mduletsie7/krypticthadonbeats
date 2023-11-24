@@ -30,4 +30,15 @@
     margin-top: 20px;
     text-align: center;
   }
+
+  /* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px;
+  }
+
+  .footer-bottom {
+    margin-top: 10px;
+  }
+}
   

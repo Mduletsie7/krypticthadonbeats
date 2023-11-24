@@ -4,6 +4,7 @@ import "../styles/Hero.css";
 // import image from "../assets/kryptic.png";
 
 const Hero = () => {
+  var emailAddress = "krypticthadonbeats.com"
   return (
     <section className="hero">
       <div className="hero-content">
@@ -12,7 +13,11 @@ const Hero = () => {
           <p>
             Music Producer from Cape Town, South africa with a passion for Hip-Hop.
           </p>
-          <button className="cta-button">Contact</button>
+          <button className="cta-button">
+        <a href={`mailto:${emailAddress}`} style={{ color: 'inherit', textDecoration: 'none' }}>
+          Contact
+        </a>
+      </button>
         </div>
       </div>
     </section>
