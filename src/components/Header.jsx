@@ -1,5 +1,6 @@
 // Header.jsx
 import React from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import '../styles/Header.css';
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
       <div className="logo">Kryptic Tha Don</div>
       <nav>
         <ul>
-          <li onClick={()=> window.open(website, "_blank")}>Lease Beats</li>
+          <li><Link to="LeaseBeats-section" smooth={true} duration={500}>Lease Beats</Link></li>
           <li>Discography</li>
           <li>Contact</li>
         </ul>

@@ -1,7 +1,7 @@
 /* HeroSection.css */
 .hero {
-    background-color: #000;
-    color: white;
+    background-color: #e7c9a9;
+    color: black;
     height: 100vh;
     display: flex;
     flex-direction: column; /* Updated to column layout */
@@ -27,12 +27,15 @@
     text-align: center;
   }
   .herotxt-kryptic {
-    color: #36454f;
+    color: #000;
+  
   }
   
   .hero-text h1 {
-    font-size: 3rem;
+    color: #e7c9a9;
+    font-size: 5rem;
     margin-bottom: 20px;
+    -webkit-text-stroke: black 1px;
   }
   
   .hero-text p {

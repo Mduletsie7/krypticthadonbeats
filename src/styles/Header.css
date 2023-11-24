@@ -1,7 +1,7 @@
 /* Header.css */
 .header {
-    background-color: #000;
-    color: white;
+    background-color: #fdfbf8;
+    color: black;
     padding: 15px;
     display: flex;
     justify-content: space-between;
@@ -19,9 +19,14 @@
   }
   
   nav ul li {
-    margin-right: 20px;
+    margin-right: 30px;
     cursor: pointer;
   }
+
+  /* Add underline effect on hover */
+nav ul li:hover {
+  color: #efcca2;
+}
   
   /* Add any additional styles to customize your header */
   
