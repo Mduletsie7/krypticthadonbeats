@@ -42,6 +42,7 @@ img {
     overflow-x: auto; /* Enable horizontal scrolling */
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
+    margin-left: -140px; /* Counteract the gap with negative margin */
   }
 
   .album-item {
