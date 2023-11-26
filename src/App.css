@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+#root > div > div.surface-ground.px-4.py-8.md\:px-6.lg\:px-8 > div.grid {
+  text-align: left;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
