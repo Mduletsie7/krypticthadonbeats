@@ -8,11 +8,11 @@
     align-items: center;
   }
   
-  .logo {
+  .logo-text {
     font-size: 1.5rem;
     font-weight: bold;
   }
-  
+
   nav ul {
     list-style-type: none;
     display: flex;
@@ -27,8 +27,21 @@
 nav ul li:hover {
   color: #efcca2;
 }
+
+.website-logo {
+  width: 100px;
+    max-width: 100%;
+    height: auto;
+}
   
   /* Add any additional styles to customize your header */
+
+  /* Styles for desktop (screen width greater than 768px) */
+@media only screen and (min-width: 769px) {
+  .website-logo {
+    display: none; /* Hide the logo on desktop */
+  }
+}
 
   /* Media queries for screens smaller than 600px */
 @media screen and (max-width: 600px) {
@@ -41,9 +54,22 @@ nav ul li:hover {
     margin-bottom: 10px;
   }
 
+  .logo-text {
+    display: none;
+  }
+
   nav ul {
     flex-direction: column;
     text-align: center;
   }
+
+  .logo {
+    display: block; /* Make the logo visible on mobile */
+  }
+
+  .logo img {
+    width:180px;
+    max-width: 100%;
+    height: auto;
+  }
 }
-  
