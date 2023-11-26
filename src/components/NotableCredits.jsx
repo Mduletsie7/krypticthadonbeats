@@ -6,10 +6,12 @@ import MusicPlayer from './MusicPlayer';
 const NotableCredits = () => {
     const credits = [
       { id: 1, title: 'Forever Blessed', artist: 'Kryptic Tha Don (ft. Neeks BTP)', artwork: 'ForeverBlessed.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/Neeks_ForeverBlessed.mp3' },
-      { id: 2, title: 'Beautiful Struggle', artist: 'Bugzy Niaire', artwork: 'PavementPoems.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/BugzyNiaire_BeautifulStruggle.mp3' },
-      { id: 3, title: 'Born Kings', artist: 'Greenland Cak', artwork: 'TheyCallMeCaddy.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/GreenlandCak_BORN-KINGS.mp3' },
-      { id: 4, title: 'Broken House', artist: 'Bugzy Niaire', artwork: 'BrokenHouse.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/BugzyNiaire_BrokenHouse.mp3' },
-      { id: 5, title: 'Bros 4 Life', artist: 'Greenland Label', artwork: 'Bros4Life.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/GreenlandCak_BORN-KINGS.mp3' },
+      { id: 2, title: 'Broken House', artist: 'Bugzy Niaire', artwork: 'BrokenHouse.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/BugzyNiaire_BrokenHouse.mp3' },
+      { id: 3, title: 'Dream', artist: 'Bugzy Niaire, Future Quarterz', artwork: 'BrokenHouse.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/BugzyNiaire_Dream.mp3' },
+      { id: 4, title: 'Feng Sui', artist: 'Sunny Pineal', artwork: 'FengSui.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/SunnyPineal-FengSui.mp3' },
+      { id: 5, title: 'Beautiful Struggle', artist: 'Bugzy Niaire', artwork: 'PavementPoems.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/BugzyNiaire_BeautifulStruggle.mp3' },
+      { id: 6, title: 'Born Kings', artist: 'Greenland Cak', artwork: 'TheyCallMeCaddy.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/GreenlandCak_BORN-KINGS.mp3' },
+      { id: 7, title: 'Bros 4 Life', artist: 'Greenland Label', artwork: 'Bros4Life.jpg', audio: 'https://krypticmusicportfolio.s3.amazonaws.com/music/GreenlandCak_BORN-KINGS.mp3' },
       // Add more credits as needed
     ];
   

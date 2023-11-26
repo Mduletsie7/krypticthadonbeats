@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Hero />
       <LeaseBeats />
-      <h1>Notable Credits</h1>
+      <h1>Production Credits</h1>
       <NotableCredits />
       <Footer />
     </div>
