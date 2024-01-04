@@ -37,7 +37,7 @@ nav ul li:hover {
   /* Add any additional styles to customize your header */
 
   /* Styles for desktop (screen width greater than 768px) */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 600px) {
   .website-logo {
     display: none; /* Hide the logo on desktop */
   }
