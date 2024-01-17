@@ -6,7 +6,8 @@ const LeaseBeats = () => {
 
   return (
     <div className='LeaseBeats-section'>
-    <h1 className='LeaseBeats-heading'>Lease Beats</h1>
+    <h1 className='LeaseBeats-heading'>Browse Beats</h1>
+    <h2 className='beats-meta'>Instant download after purchase</h2>
     <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
     </div>
 
