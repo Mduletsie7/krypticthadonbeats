@@ -1,7 +1,11 @@
 /* HeroSection.css */
 .hero {
-    background-color: #e7c9a9;
-    color: black;
+  background-image: url('https://krypticmusicportfolio.s3.amazonaws.com/images/websitehero.jpg');
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for opacity */
+    color: white;
     height: 100vh;
     display: flex;
     flex-direction: column; /* Updated to column layout */
@@ -27,12 +31,12 @@
     text-align: center;
   }
   .herotxt-kryptic {
-    color: #000;
+    color: #fff;
   
   }
   
   .hero-text h1 {
-    color: #e7c9a9;
+    color: #fff;
     font-size: 5rem;
     margin-bottom: 20px;
     -webkit-text-stroke: black 1px;

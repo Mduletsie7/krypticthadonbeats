@@ -22,7 +22,7 @@ export const PricingTable = () => {
               <div className="text-600">Untagged High Quality MP3 File</div>
               <hr className="my-3 mx-0 border-top-1 border-none surface-border" />
               <div className="flex align-items-center">
-                <span className="font-bold text-2xl text-900">$40</span>
+                <span className="font-bold text-2xl text-900">$30</span>
               </div>
               <hr className="my-3 mx-0 border-top-1 border-none surface-border" />
               <ul className="list-none p-0 m-0 flex-grow-1">
@@ -62,7 +62,7 @@ export const PricingTable = () => {
               <div className="text-600">Untagged MP3 + WAV File</div>
               <hr className="my-3 mx-0 border-top-1 border-none surface-border" />
               <div className="flex align-items-center">
-                <span className="font-bold text-2xl text-900">$45</span>
+                <span className="font-bold text-2xl text-900">$50</span>
               </div>
               <hr className="my-3 mx-0 border-top-1 border-none surface-border" />
               <ul className="list-none p-0 m-0 flex-grow-1">
