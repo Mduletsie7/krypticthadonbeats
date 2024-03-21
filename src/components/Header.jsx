@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <img className='website-logo' src='https://krypticmusicportfolio.s3.amazonaws.com/images/logo.png' alt='Kryptic Tha Don logo'></img>
-        <h1 className='logo-text'>Kryptic Tha Don</h1>
+        <h1 className='logo-text'>KRYPTIC THA DON</h1>
       </div>
       <nav>
         <ul>
