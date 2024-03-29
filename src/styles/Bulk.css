@@ -1,0 +1,41 @@
+/* HeroSection.css */
+.bulk {
+    background: black;
+    color: white;
+    height: 30vh;
+    display: flex;
+    flex-direction: column; /* Updated to column layout */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column; /* Updated to column layout */
+    align-items: center;
+  }
+  
+
+  
+  .cta-button {
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #36454f;
+  }
+  
+  /* Add any additional styles to customize your hero section */
+  
