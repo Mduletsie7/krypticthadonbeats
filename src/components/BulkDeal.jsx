@@ -10,7 +10,7 @@ const BulkDeal = () => {
         <div className="bulk-text">
           <h1 className="bulk-deal-header">BUY 1 GET 1 FREE</h1>
           <p>
-            Simply Add 2 Beats To Cart To Get 1 Free 🛒
+            Simply Add 2 Beats To Your Cart & Receive 1 Free 🛒
           </p>
         </div>
       </div>
