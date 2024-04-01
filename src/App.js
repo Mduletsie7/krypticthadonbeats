@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <BulkDeal />
+      {/* <BulkDeal /> */}
       <LeaseBeats />
       <PricingTable />
       <h1>Production Credits</h1>
