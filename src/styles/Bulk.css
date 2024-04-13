@@ -1,14 +1,14 @@
 /* HeroSection.css */
 .bulk {
-    background: black;
+    background: red;
     color: white;
-    height: 30vh;
+    height: 7vh;
     display: flex;
     flex-direction: column; /* Updated to column layout */
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -37,5 +37,9 @@
     background-color: #36454f;
   }
   
-  /* Add any additional styles to customize your hero section */
-  
+  /* Media queries for screens smaller than 600px */
+  @media screen and (max-width: 600px) {
+    .bulk {
+      font-size: 0.6rem;
+    }
+  }

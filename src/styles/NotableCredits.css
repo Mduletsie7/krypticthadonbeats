@@ -37,6 +37,10 @@ img {
 
 /* Media query for screens smaller than 600px (adjust as needed) */
 @media (max-width: 600px) {
+
+  .notable-credits{
+    font-size: 14px;
+  }
   .album-list {
     flex-wrap: nowrap; /* Disable wrapping on small screens */
     overflow-x: auto; /* Enable horizontal scrolling */
