@@ -2,7 +2,6 @@ import './App.css';
 import "primeflex/primeflex.css";
 import Header from './components/Header';
 import Hero from './components/Hero';
-import BulkDeal from './components/BulkDeal';
 import LeaseBeats from './components/LeaseBeats';
 import { PricingTable } from './components/PricingTable';
 import NotableCredits from './components/NotableCredits';
@@ -13,7 +12,6 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      {/* <BulkDeal /> */}
       <LeaseBeats />
       <PricingTable />
       <h1>Production Credits</h1>
