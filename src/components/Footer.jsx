@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-bottom">
-        <p>Kryptic Tha Don &copy; ${currentYear}</p>
+        <p>Kryptic Tha Don &copy; {currentYear}</p>
       </div>
     </footer>
   );
